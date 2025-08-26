@@ -1,3 +1,5 @@
+# Failed to encode CBOR: RangeError: Offset is outside the bounds of the DataView
+
 ## Summary
 
 There's a critical buffer management bug in the CBOR encoding implementation that occurs when encoding parameters with a very specific size and complexity. The bug manifests as RangeError: Offset is outside the bounds of the DataView during parameter serialization.
