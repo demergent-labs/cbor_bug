@@ -21,7 +21,7 @@ This bug is extremely sensitive to parameter structure and size:
 
 ## Minimal Reproduction Case
 
-The [attached reproduction case](https://gist.github.com/bdemann/ccfd4b26cea38bcefab73442e1d0dac2) contains:
+This repo is a reproduction case of the error and contains:
 
 -   A Rust canister with the exact type signature that triggers the bug
 -   TypeScript test that calls the canister with the problematic arguments
