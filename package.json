@@ -1,0 +1,16 @@
+{
+    "name": "rust-cbor-bug-test",
+    "type": "module",
+    "scripts": {
+        "test": "tsx test.ts",
+        "pretest": "dfx deploy"
+    },
+    "dependencies": {
+        "@dfinity/principal": "3.2.2"
+    },
+    "devDependencies": {
+        "tsx": "^4.7.1",
+        "typescript": "^5.4.2",
+        "@types/node": "^24.3.0"
+    }
+}

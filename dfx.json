@@ -1,0 +1,9 @@
+{
+    "canisters": {
+        "cbor_bug_rust": {
+            "type": "rust",
+            "package": "cbor_bug_rust",
+            "candid": "cbor_bug_rust.did"
+        }
+    }
+}

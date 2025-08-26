@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "target": "ES2024",
+        "module": "ES2022",
+        "moduleResolution": "bundler",
+        "allowJs": true,
+        "noEmit": true
+    },
+    "include": ["*.ts"],
+    "exclude": ["node_modules", ".dfx", "target"]
+}
